@@ -19,7 +19,7 @@ var c = new Image();
 c.src = 'ch4.png';
 c.setAttribute('width', 500);
 c.setAttribute('height', 733);
-c.addEventListener('click', checkImg);
+c.addEventListener('click', openImg);
 
 //CH5
 var d = new Image();
@@ -195,17 +195,9 @@ function ch5LoadImg(){
 
 
 
-function checkImg(){
-    if(!newImg){
-        c.src = 'Ch4Alt.png';
-        newImg = true;
-    }//End of if
 
-    else if(newImg){
-        c.src = 'Ch4.png';
-        newImg = false;
-    }//End of else if
-
+function openImg(){
+    window.open('IMG/ch4Alt.png');
 }//End of checkImg
 
 
