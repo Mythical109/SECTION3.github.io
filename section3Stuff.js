@@ -106,8 +106,6 @@ function aboutLoadImg(){
 
 
 function ch2LoadImg(){
-
-    c.src = 'Ch4.png';
     newImg = false;
     f = true;
 
@@ -136,7 +134,6 @@ function ch2LoadImg(){
 }//End of cAndtLoadImg()
 
 function ch4LoadImg(){
-    c.src = 'Ch4.png';
     newImg = false;
     
     switch(o){
@@ -163,7 +160,6 @@ function ch4LoadImg(){
 }//End of caesarLoadImg()
 
 function ch5LoadImg(){
-    c.src = 'Ch4.png';
     newImg = false;
 
     switch(o){
