@@ -197,7 +197,7 @@ function ch5LoadImg(){
 
 
 function openImg(){
-    window.open('IMG/ch4Alt.png');
+    window.open('ch4Alt.png');
 }//End of checkImg
 
 
